@@ -1,0 +1,12 @@
+{
+  "t_closeness_metrics": {
+    "t_threshold": 0.25,
+    "metric": "Total Variation Distance (categorical)",
+    "sensitive_attribute": "fitness_level",
+    "violations": 49,
+    "violation_rate": 0.34265734265734266,
+    "mean_tvd": 0.2617022068668134,
+    "corrections_made": 52,
+    "data_loss_percent": 0.0
+  }
+}

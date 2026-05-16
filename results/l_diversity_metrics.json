@@ -1,0 +1,10 @@
+{
+  "l_diversity_metrics": {
+    "l_value": 3,
+    "violations": 8,
+    "violation_rate": 0.055944055944055944,
+    "reassignments": 72,
+    "sensitive_attribute": "fitness_level",
+    "data_loss_percent": 0.0
+  }
+}

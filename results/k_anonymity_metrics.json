@@ -1,0 +1,12 @@
+{
+  "k_anonymity_metrics": {
+    "k_value": 5,
+    "violations": 7,
+    "violation_rate": 0.04895104895104895,
+    "records_original": 7000,
+    "records_after": 7000,
+    "data_loss_percent": 0.0,
+    "sensitive_attribute": "fitness_level",
+    "fitness_level_l_violations": 68
+  }
+}

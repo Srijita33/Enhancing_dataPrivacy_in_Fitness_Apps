@@ -1,0 +1,11 @@
+{
+  "method": "Hybrid 1 \u2014 Adaptive Distribution Balancing",
+  "sensitive_attribute": "fitness_level",
+  "inference_attack_accuracy": 0.6562857142857143,
+  "inference_attack_accuracy_before": 0.6792857142857143,
+  "attack_accuracy_reduction": 0.02300000000000002,
+  "violations_after": 39,
+  "mean_tvd": 0.23745046467937705,
+  "total_adjustments": 166,
+  "data_loss_percent": 0.0
+}

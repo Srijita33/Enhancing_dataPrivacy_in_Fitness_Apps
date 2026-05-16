@@ -1,0 +1,62 @@
+{
+  "sensitive_attribute": "fitness_level",
+  "best_privacy_method": "Hybrid Model 3",
+  "best_utility_method": "K-Anonymity",
+  "best_tradeoff_method": "Hybrid Model 3",
+  "comparison_table": [
+    {
+      "Method": "K-Anonymity",
+      "Inference Attack Accuracy": 0.6897,
+      "Mean TVD (privacy metric)": 0.2812,
+      "L-Diversity Satisfaction (%)": 52.4,
+      "T-Violations": 60,
+      "Utility Score": 1.0,
+      "Records": 7000
+    },
+    {
+      "Method": "L-Diversity",
+      "Inference Attack Accuracy": 0.6861,
+      "Mean TVD (privacy metric)": 0.2829,
+      "L-Diversity Satisfaction (%)": 94.4,
+      "T-Violations": 57,
+      "Utility Score": 1.0,
+      "Records": 7000
+    },
+    {
+      "Method": "T-Closeness",
+      "Inference Attack Accuracy": 0.6793,
+      "Mean TVD (privacy metric)": 0.2617,
+      "L-Diversity Satisfaction (%)": 96.5,
+      "T-Violations": 49,
+      "Utility Score": 1.0,
+      "Records": 7000
+    },
+    {
+      "Method": "Hybrid Model 1",
+      "Inference Attack Accuracy": 0.6563,
+      "Mean TVD (privacy metric)": 0.2375,
+      "L-Diversity Satisfaction (%)": 96.5,
+      "T-Violations": 39,
+      "Utility Score": 1.0,
+      "Records": 7000
+    },
+    {
+      "Method": "Hybrid Model 2",
+      "Inference Attack Accuracy": 0.6434,
+      "Mean TVD (privacy metric)": 0.1989,
+      "L-Diversity Satisfaction (%)": 96.5,
+      "T-Violations": 18,
+      "Utility Score": 1.0,
+      "Records": 7000
+    },
+    {
+      "Method": "Hybrid Model 3",
+      "Inference Attack Accuracy": 0.5441,
+      "Mean TVD (privacy metric)": 0.1617,
+      "L-Diversity Satisfaction (%)": 96.5,
+      "T-Violations": 31,
+      "Utility Score": 1.0,
+      "Records": 7000
+    }
+  ]
+}

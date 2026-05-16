@@ -1,0 +1,14 @@
+{
+  "method": "Hybrid 3 \u2014 Entropy-Guided Stochastic Rebalancing",
+  "sensitive_attribute": "fitness_level",
+  "inference_attack_accuracy": 0.5441428571428572,
+  "inference_attack_accuracy_before": 0.6792857142857143,
+  "attack_accuracy_reduction": 0.13514285714285712,
+  "violations_after": 31,
+  "mean_tvd": 0.1616774102510508,
+  "total_adjustments": 4659,
+  "pass1_class_cap": 4495,
+  "pass2_entropy": 131,
+  "pass3_tvd": 33,
+  "data_loss_percent": 0.0
+}

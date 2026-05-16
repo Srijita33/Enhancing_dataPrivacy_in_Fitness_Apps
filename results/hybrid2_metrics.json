@@ -1,0 +1,11 @@
+{
+  "method": "Hybrid 2 \u2014 Clustering-Aware Harmonisation",
+  "sensitive_attribute": "fitness_level",
+  "inference_attack_accuracy": 0.6434285714285715,
+  "inference_attack_accuracy_before": 0.6792857142857143,
+  "attack_accuracy_reduction": 0.03585714285714281,
+  "violations_after": 18,
+  "mean_tvd": 0.19887052353517767,
+  "total_adjustments": 507,
+  "data_loss_percent": 0.0
+}

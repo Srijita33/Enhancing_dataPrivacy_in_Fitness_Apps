@@ -1,0 +1,58 @@
+[
+  {
+    "Stage": "original",
+    "Sensitive Attribute": "fitness_level",
+    "Identity Protection": "No",
+    "Attribute Protection": "No",
+    "Distribution Protection": "No",
+    "K-Value": "-",
+    "K-Violations": "-",
+    "L-Value": "-",
+    "L-Violations": "-",
+    "T-Threshold": "-",
+    "T-Violations": "-",
+    "Mean TVD": "-"
+  },
+  {
+    "Stage": "k_anonymity",
+    "Sensitive Attribute": "fitness_level",
+    "Identity Protection": "Yes",
+    "Attribute Protection": "No",
+    "Distribution Protection": "No",
+    "K-Value": 5,
+    "K-Violations": 7,
+    "L-Value": "-",
+    "L-Violations": "-",
+    "T-Threshold": "-",
+    "T-Violations": "-",
+    "Mean TVD": "-"
+  },
+  {
+    "Stage": "l_diversity",
+    "Sensitive Attribute": "fitness_level",
+    "Identity Protection": "Yes",
+    "Attribute Protection": "Yes",
+    "Distribution Protection": "No",
+    "K-Value": "-",
+    "K-Violations": "-",
+    "L-Value": 3,
+    "L-Violations": 8,
+    "T-Threshold": "-",
+    "T-Violations": "-",
+    "Mean TVD": "-"
+  },
+  {
+    "Stage": "t_closeness",
+    "Sensitive Attribute": "fitness_level",
+    "Identity Protection": "Yes",
+    "Attribute Protection": "Yes",
+    "Distribution Protection": "Yes",
+    "K-Value": "-",
+    "K-Violations": "-",
+    "L-Value": "-",
+    "L-Violations": "-",
+    "T-Threshold": 0.25,
+    "T-Violations": 49,
+    "Mean TVD": 0.2617
+  }
+]

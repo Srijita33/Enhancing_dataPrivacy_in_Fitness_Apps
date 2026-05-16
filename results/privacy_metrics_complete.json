@@ -1,0 +1,219 @@
+{
+  "project": "Privacy-Preserving Fitness Data \u2014 fitness_level as sensitive attribute",
+  "timestamp": "2026-04-03T19:26:12.517143",
+  "stages": {
+    "original": {
+      "stage": "original",
+      "timestamp": "2026-04-03T19:25:43.081034",
+      "dataset_stats": {
+        "total_records": 7000,
+        "total_columns": 11,
+        "columns": [
+          "age",
+          "region",
+          "activity",
+          "heart_rate",
+          "steps",
+          "calories",
+          "step_range",
+          "calories_range",
+          "sleep_hours",
+          "weight_kg",
+          "fitness_level"
+        ]
+      },
+      "group_analysis": {
+        "total_groups": 1001,
+        "min_group_size": 1,
+        "max_group_size": 48,
+        "mean_group_size": 6.993006993006993,
+        "median_group_size": 5.0,
+        "std_group_size": 6.915558621611926
+      },
+      "fitness_level_analysis": {
+        "value_counts": {
+          "moderately_fit": 4039,
+          "unfit": 1488,
+          "fit": 1473
+        },
+        "distribution": {
+          "moderately_fit": 0.577,
+          "unfit": 0.2126,
+          "fit": 0.2104
+        },
+        "diversity_per_group": {
+          "min": 1,
+          "max": 3,
+          "mean": 1.8371628371628372
+        }
+      }
+    },
+    "k_anonymity": {
+      "stage": "k_anonymity",
+      "timestamp": "2026-04-03T19:25:54.891551",
+      "dataset_stats": {
+        "total_records": 7000,
+        "total_columns": 11,
+        "columns": [
+          "age",
+          "region",
+          "activity",
+          "heart_rate",
+          "steps",
+          "calories",
+          "step_range",
+          "calories_range",
+          "sleep_hours",
+          "weight_kg",
+          "fitness_level"
+        ]
+      },
+      "group_analysis": {
+        "total_groups": 143,
+        "min_group_size": 1,
+        "max_group_size": 283,
+        "mean_group_size": 48.95104895104895,
+        "median_group_size": 33.0,
+        "std_group_size": 50.36896661822364
+      },
+      "fitness_level_analysis": {
+        "value_counts": {
+          "moderately_fit": 4039,
+          "unfit": 1488,
+          "fit": 1473
+        },
+        "distribution": {
+          "moderately_fit": 0.577,
+          "unfit": 0.2126,
+          "fit": 0.2104
+        },
+        "diversity_per_group": {
+          "min": 1,
+          "max": 3,
+          "mean": 2.4965034965034967
+        }
+      },
+      "k_anonymity_metrics": {
+        "k_value": 5,
+        "violations": 7,
+        "violation_rate": 0.04895104895104895,
+        "data_loss_percent": 0.0,
+        "sensitive_attribute": "fitness_level",
+        "fitness_level_l_violations": 68
+      }
+    },
+    "l_diversity": {
+      "stage": "l_diversity",
+      "timestamp": "2026-04-03T19:26:00.644322",
+      "dataset_stats": {
+        "total_records": 7000,
+        "total_columns": 11,
+        "columns": [
+          "age",
+          "region",
+          "activity",
+          "heart_rate",
+          "steps",
+          "calories",
+          "step_range",
+          "calories_range",
+          "sleep_hours",
+          "weight_kg",
+          "fitness_level"
+        ]
+      },
+      "group_analysis": {
+        "total_groups": 143,
+        "min_group_size": 1,
+        "max_group_size": 283,
+        "mean_group_size": 48.95104895104895,
+        "median_group_size": 33.0,
+        "std_group_size": 50.36896661822364
+      },
+      "fitness_level_analysis": {
+        "value_counts": {
+          "moderately_fit": 3973,
+          "fit": 1520,
+          "unfit": 1507
+        },
+        "distribution": {
+          "moderately_fit": 0.5676,
+          "fit": 0.2171,
+          "unfit": 0.2153
+        },
+        "diversity_per_group": {
+          "min": 1,
+          "max": 3,
+          "mean": 2.923076923076923
+        }
+      },
+      "l_diversity_metrics": {
+        "l_value": 3,
+        "violations": 8,
+        "violation_rate": 0.055944055944055944,
+        "data_loss_percent": 0.0,
+        "sensitive_attribute": "fitness_level"
+      }
+    },
+    "t_closeness": {
+      "stage": "t_closeness",
+      "timestamp": "2026-04-03T19:26:05.119125",
+      "dataset_stats": {
+        "total_records": 7000,
+        "total_columns": 11,
+        "columns": [
+          "age",
+          "region",
+          "activity",
+          "heart_rate",
+          "steps",
+          "calories",
+          "step_range",
+          "calories_range",
+          "sleep_hours",
+          "weight_kg",
+          "fitness_level"
+        ]
+      },
+      "group_analysis": {
+        "total_groups": 143,
+        "min_group_size": 1,
+        "max_group_size": 283,
+        "mean_group_size": 48.95104895104895,
+        "median_group_size": 33.0,
+        "std_group_size": 50.36896661822364
+      },
+      "fitness_level_analysis": {
+        "value_counts": {
+          "moderately_fit": 4015,
+          "fit": 1504,
+          "unfit": 1481
+        },
+        "distribution": {
+          "moderately_fit": 0.5736,
+          "fit": 0.2149,
+          "unfit": 0.2116
+        },
+        "diversity_per_group": {
+          "min": 1,
+          "max": 3,
+          "mean": 2.944055944055944
+        }
+      },
+      "t_closeness_metrics": {
+        "t_threshold": 0.25,
+        "metric": "TVD (categorical)",
+        "sensitive_attribute": "fitness_level",
+        "violations": 49,
+        "violation_rate": 0.34265734265734266,
+        "mean_tvd": 0.2617022068668134,
+        "data_loss_percent": 0.0
+      }
+    }
+  },
+  "summary": {
+    "records_original": 7000,
+    "records_final": 7000,
+    "total_data_loss_percent": 0.0
+  }
+}

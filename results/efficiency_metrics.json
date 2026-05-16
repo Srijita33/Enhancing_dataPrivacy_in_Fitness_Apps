@@ -1,0 +1,42 @@
+[
+  {
+    "Stage": "original",
+    "Records": 7000,
+    "Groups": 1001,
+    "Data Retention %": 100.0,
+    "Data Loss %": 0.0,
+    "Mean Group Size": 6.99,
+    "Min Group Size": 1,
+    "Compression Ratio": 6.99
+  },
+  {
+    "Stage": "k_anonymity",
+    "Records": 7000,
+    "Groups": 143,
+    "Data Retention %": 100.0,
+    "Data Loss %": 0.0,
+    "Mean Group Size": 48.95,
+    "Min Group Size": 1,
+    "Compression Ratio": 48.95
+  },
+  {
+    "Stage": "l_diversity",
+    "Records": 7000,
+    "Groups": 143,
+    "Data Retention %": 100.0,
+    "Data Loss %": 0.0,
+    "Mean Group Size": 48.95,
+    "Min Group Size": 1,
+    "Compression Ratio": 48.95
+  },
+  {
+    "Stage": "t_closeness",
+    "Records": 7000,
+    "Groups": 143,
+    "Data Retention %": 100.0,
+    "Data Loss %": 0.0,
+    "Mean Group Size": 48.95,
+    "Min Group Size": 1,
+    "Compression Ratio": 48.95
+  }
+]
