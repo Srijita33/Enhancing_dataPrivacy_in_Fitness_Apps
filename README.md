@@ -1,4 +1,3 @@
-# Enhancing_dataPrivacy_in_Fitness_Apps
 # Privacy-Preserving Fitness Tracking Framework
 
 Algorithmic framework for enhancing user data privacy in fitness tracking ecosystems using classical anonymization techniques and advanced hybrid anonymization models.
